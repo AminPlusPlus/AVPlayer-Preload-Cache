@@ -1,0 +1,52 @@
+# Xcode
+#
+build/
+DerivedData/
+*.xcworkspace
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/xcshareddata/**/*
+*.moved-aside
+*.xcuserdatad
+*.xcscmblueprint
+*.xcassets
+
+# Swift Package Manager
+#
+.build/
+.swiftpm/xcode/package.xcworkspace/
+Packages
+Package.pins
+Package.resolved
+Sources/**/*.swift
+
+# CocoaPods
+#
+Pods/
+.metadata/
+.bundle/
+
+# Carthage
+#
+Carthage/Build/
+Carthage/Checkouts/
+
+# Fastlane
+#
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output/
+
+# IDE Preferences
+#
+*.xcsettings
+
+# Playgrounds
+#
+timeline.xctimeline
+playground.xcworkspace

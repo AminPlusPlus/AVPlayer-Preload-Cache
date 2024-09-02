@@ -1,0 +1,38 @@
+[
+    {
+        "id": "bdfbda5e-7831-4d87-a3b6-4d2c76a80719",
+        "name": "Eiffel Tower, Paris",
+        "thumbnailURL": "https://images.unsplash.com/photo-1659003505996-d5d7ca66bb25?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8RWlmZmVsJTIwVG93ZXIlMkMlMjBQYXJpc3xlbnwwfHwwfHx8Mg%3D%3D",
+        "videoURL": "https://videos.pexels.com/video-files/15203565/15203565-uhd_1440_2560_30fps.mp4"
+    },
+    {
+        "id": "e7e2e814-5bb8-4b2e-a3e1-8e417cc71736",
+        "name": "Great Wall of China, China",
+        "thumbnailURL": "https://images.unsplash.com/photo-1590050371954-f8c5beb14b1e?q=80&w=3024&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "videoURL": "https://videos.pexels.com/video-files/1193306/1193306-uhd_2560_1440_30fps.mp4"
+    },
+    {
+        "id": "c0134342-9d65-4fa0-847e-cc6b258fa921",
+        "name": "Grand Canyon, USA",
+        "thumbnailURL": "https://images.unsplash.com/photo-1583601341092-a2a75bbb07da?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8R3JhbmQlMjBDYW55b24lMkMlMjBVU0F8ZW58MHx8MHx8fDI%3D",
+        "videoURL": "https://videos.pexels.com/video-files/16115336/uhd_30fps.mp4"
+    },
+    {
+        "id": "d4e3b7f5-2f3c-42f2-9c23-6b0ad4e3e657",
+        "name": "Machu Picchu, Peru",
+        "thumbnailURL": "https://images.unsplash.com/photo-1461863109726-246fa9598dc3?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8TWFjaHUlMjBQaWNjaHUlMkMlMjBQZXJ1fGVufDB8fDB8fHwy",
+        "videoURL": "https://videos.pexels.com/video-files/5904599/5904599-hd_1080_1920_30fps.mp4"
+    },
+    {
+        "id": "f5a6b785-2d3e-4c8f-8f6a-e0b9d8f36b1c",
+        "name": "Santorini, Greece",
+        "thumbnailURL": "https://images.unsplash.com/photo-1664112347322-fb767159ce56?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8U2FudG9yaW5pJTJDJTIwR3JlZWNlfGVufDB8fDB8fHwy",
+        "videoURL": "https://videos.pexels.com/video-files/18770496/18770496-uhd_1440_2560_30fps.mp4"
+    },
+    {
+        "id": "bb7d1e1e-9e7d-4d6b-847f-5f6889d1c3d4",
+        "name": "Sydney Opera House, Australia",
+        "thumbnailURL": "https://images.unsplash.com/photo-1559651868-066bcc28f358?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "videoURL": "https://videos.pexels.com/video-files/15172397/15172397-hd_1080_1920_30fps.mp4"
+    }
+]
