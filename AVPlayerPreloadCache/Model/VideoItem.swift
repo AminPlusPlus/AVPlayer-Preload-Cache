@@ -16,7 +16,7 @@ extension VideoItem {
                 let jsonData = try decoder.decode([VideoItem].self, from: data)
                 return jsonData
             } catch {
-                print("Error decoding JSON: \(error)")
+                Logger.logMessage("Error decoding JSON: \(error)", level: .error)
             }
         }
         return nil

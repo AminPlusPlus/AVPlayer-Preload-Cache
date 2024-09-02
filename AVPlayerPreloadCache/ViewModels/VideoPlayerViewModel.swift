@@ -11,7 +11,7 @@ class VideoPlayerViewModel {
         let playerItem: AVPlayerItem
         if let cachedPlayerItem = VideoCachingManager.shared.getCachedPlayerItem(for: videoURL) {
             playerItem = cachedPlayerItem
-            print("Playing from Cache: \(cachedPlayerItem.asset)")
+            Logger.logMessage("Playing from Cache: \(cachedPlayerItem.asset)")
         } else {
             playerItem = AVPlayerItem(url: videoURL)
             self.player = AVPlayer(url: videoURL)

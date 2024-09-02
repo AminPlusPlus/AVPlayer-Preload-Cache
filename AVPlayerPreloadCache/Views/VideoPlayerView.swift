@@ -7,7 +7,6 @@ struct VideoPlayerView: View {
     @Environment(\.dismiss) var dismiss
     
     init(videoURL: URL) {
-        print("URL video: \(videoURL)")
         viewModel.setupPlayer(with: videoURL)
     }
     
@@ -19,7 +18,7 @@ struct VideoPlayerView: View {
                     .onVisibilityChanged{ seen in
                         if seen {
                             viewModel.player?.play()
-                            print("seen:  \(viewModel.player?.currentItem?.isPlaybackBufferFull)")
+                            Logger.logMessage("Seen : \(String(describing: viewModel.player?.currentItem?.isPlaybackBufferFull))")
                         } else {
                             viewModel.player?.pause()
                         }

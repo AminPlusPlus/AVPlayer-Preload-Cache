@@ -12,6 +12,7 @@
 		270581532C863B01004B8C75 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270581522C863B01004B8C75 /* VideoPlayerView.swift */; };
 		270581552C863B34004B8C75 /* VideoPlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270581542C863B34004B8C75 /* VideoPlayerViewModel.swift */; };
 		270581582C863BCF004B8C75 /* VisibilityModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270581572C863BCF004B8C75 /* VisibilityModifier.swift */; };
+		2705815E2C865341004B8C75 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2705815D2C865341004B8C75 /* Logger.swift */; };
 		275F72622C5E9D4C0033464F /* AVPlayerPreloadCacheApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F72612C5E9D4C0033464F /* AVPlayerPreloadCacheApp.swift */; };
 		275F72662C5E9D4E0033464F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 275F72652C5E9D4E0033464F /* Assets.xcassets */; };
 		275F72692C5E9D4E0033464F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 275F72682C5E9D4E0033464F /* Preview Assets.xcassets */; };
@@ -28,6 +29,7 @@
 		270581522C863B01004B8C75 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		270581542C863B34004B8C75 /* VideoPlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewModel.swift; sourceTree = "<group>"; };
 		270581572C863BCF004B8C75 /* VisibilityModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisibilityModifier.swift; sourceTree = "<group>"; };
+		2705815D2C865341004B8C75 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		275F725E2C5E9D4C0033464F /* AVPlayerPreloadCache.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVPlayerPreloadCache.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		275F72612C5E9D4C0033464F /* AVPlayerPreloadCacheApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayerPreloadCacheApp.swift; sourceTree = "<group>"; };
 		275F72652C5E9D4E0033464F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 			children = (
 				275F72712C5E9F950033464F /* AVControllerVideoPlayerView.swift */,
 				275F726F2C5E9EAA0033464F /* VideoCachingManager.swift */,
+				2705815D2C865341004B8C75 /* Logger.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				270581552C863B34004B8C75 /* VideoPlayerViewModel.swift in Sources */,
+				2705815E2C865341004B8C75 /* Logger.swift in Sources */,
 				275F72762C5EA2110033464F /* VideoItem.swift in Sources */,
 				270581512C863AC6004B8C75 /* FullVideoCarouselView.swift in Sources */,
 				275F72702C5E9EAA0033464F /* VideoCachingManager.swift in Sources */,
